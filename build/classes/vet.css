@@ -1,0 +1,49 @@
+/* 
+    Document   : vet
+    Created on : Jan 28, 2016, 2:57:21 PM
+    Author     : WALTZ
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.controls{
+    -fx-position-shape: fixed;
+}
+
+.progress-bar { 
+    
+    -fx-background-radius: 20, 20, 20, 20;
+ 
+}
+
+.progress-bar > .bar {
+    -fx-background-color:#B74934;
+    -fx-background-insets: 1 1 1 1;
+    -fx-padding: 0.20em;
+}
+.progress-bar > .track{
+    -fx-background-color: red;
+    -fx-background-insets: 20;
+    -fx-background-radius: 6, 6, 6, 6;
+}
+
+.progress-bar > .slider{
+    -fx-background-color: yellow;
+}
+
+.slider .thumb {
+    -fx-focus-color: transparent;
+    -fx-background-color:black;
+    -fx-background-image: url("slidenw.png");
+    -fx-background-repeat: stretch;
+
+}
+
+.slider .track {
+    -fx-border-style:solid;
+    -fx-border-color:#B74934;
+    -fx-background-color:null;  /* Hide the track */
+   
+}
+
