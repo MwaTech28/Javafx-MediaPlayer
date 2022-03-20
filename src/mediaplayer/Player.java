@@ -674,7 +674,7 @@ slider.valueProperty().addListener(new ChangeListener<Number>() {
     
     }
     
-    private static String formatTime(Duration elapsed, Duration duration) {//CLACULATE TIME PASSED WHILE MEDIA IS PLAYING
+    private static String formatTime(Duration elapsed, Duration duration) {//CALCULATE TIME PASSED WHILE MEDIA IS PLAYING
    int intElapsed = (int)Math.floor(elapsed.toSeconds());
    int elapsedHours = intElapsed / (60 * 60);
    if (elapsedHours > 0) {
